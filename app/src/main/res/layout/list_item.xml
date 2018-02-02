@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/list_item_spacing">
+
+    <TextView
+        android:id="@+id/initial_letter"
+        android:layout_width="@dimen/initial_letter_width"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/hansa_gotisch"
+        android:gravity="center"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="@dimen/initial_letter_size" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/initial_letter"
+        android:layout_toRightOf="@id/initial_letter"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/title_text_horizontal_spacing"
+        android:paddingRight="@dimen/title_text_horizontal_spacing"
+        android:paddingTop="@dimen/title_text_vertical_spacing"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="@dimen/title_text_size" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/time_text_size" />
+</RelativeLayout>

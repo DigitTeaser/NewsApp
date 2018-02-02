@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation drawer menu item title. -->
+    <string name="menu_overview">Overview</string>
+    <string name="menu_news">News</string>
+    <string name="menu_opinion">Opinion</string>
+    <string name="menu_sport">Sport</string>
+    <string name="menu_culture">Culture</string>
+    <string name="menu_lifestyle">Lifestyle</string>
+
+    <string name="nav_header_image_description">This is the guardian logo in navigation drawer.</string>
+
+    <!-- Error message. [CHAR LIMIT=NONE] -->
+    <string name="no_connection">No Internet connection.</string>
+    <string name="something_wrong">Something went wrong.</string>
+</resources>
